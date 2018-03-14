@@ -1,250 +1,135 @@
 /*main css*/
-
-
-
-.navbar-brand{
-	width:150px;
+.fondos {
+	background-image: url("../img/travel_2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 
-.navbar-brand img{
-	width:60%
+.navbar-button {
+	font-size: 14px;
 }
 
-.ico-wrapper{
-    display: block;
-    margin-top: 15px;
-    float: right;
-}
-
-.social-ico{
-	width:20px;
-	height:20px;
-	float:right;
-	margin-left:10px;
-}
-
-.social-ico.twitter{
-	background: url(../img/tt-ico.png)center no-repeat;
-	background-size:100%;
-}
-
-.social-ico.facebook{
-	background: url(../img/fb-ico.png)center no-repeat;
-	background-size:100%;
-}
-
-.social-ico.whatsapp{
-	background: url(../img/ws-ico.png)center no-repeat;
-	background-size:300%;
-}
-
-.gray-block{
-	width:100%;
-	height: 300px;
-	background:gray;
+.recargado {
+	background-color: #e7d3bbbf
 }
 
 
-.panel-destino{
-	width: 280px;
-	height: 230px;
-	border: 1px solid black;
-	border-radius: 25px 15px;
-	margin-top: 40px;
-	transition: .5s ease;
-  	backface-visibility: hidden;
+.pregunta {
+	margin: 10px;
+	padding: 20px;
+	/* background: linear-gradient(#ecb1308e, #3f87a6); */
+	border-radius: 5px;
 }
 
-.etiqueta-destino{
-	height: auto;
-	width: auto;
-	position: relative;
-	text-align: center;
-	font-family: 'Pacifico', cursive;
-	font-size: 22px;
-	background-color: #45f7a4;
-	top: 9%;
-	opacity: 0.65;
-}
-
-.precio-destino{
-	height: 35px;
-	width: 65px;
-	background-color: #d8e248;
-	position: relative;
-	left: 70%;
-	top: 12%;
-	opacity: 0.75;
-	font-family: 'Pacifico', cursive;
-	font-size: 22px;
-	border-radius: 15px;
-	text-align: center;
-}
-
-.contenedor-panel{
-	position: relative;
-}
-
-.contenedor-panel:hover .panel-destino{
-	opacity: 0.45;
-}
-
-.oferta{
-	transition: .5s ease;
-  	opacity: 0;
-  	position: absolute;
- 	top: 150px;
-  	left: 140px;
-  	transform: translate(-50%, -50%);
-  	-ms-transform: translate(-50%, -50%);
-  	text-align: center;
-  	font-family: 'Pacifico', cursive;
-  	border-radius: 15px;
-	background-color: #d8e248;
-	font-size: 25px;
-  	padding: 3px 3px;
-	display: inline-flex;
-}
-
-.contenedor-panel:hover .oferta {
-	opacity: 1;
-}
-
-.logo{
-	width: 150px;
-
-}
-
-.logo img{
-	width:60%;
-	margin-top: 5px;
-} 
+.wrapper {
+    margin: 20px 0px;
+    display: grid;
+	grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    grid-template-areas:
+    "area1  area1   area2"
+    "area1  area1   area3"
+    "area5  area4   area3"
+    "area5  area6   area6"
+  }
 
 
-.section-2 {
- 
-  background-color: #141b5c;
- 
-  color: whitesmoke;
- 
-  text-shadow: rgb(221, 146, 221) 3px;
- 
-  padding-top: 15px;
- 
-} 
 
-
-.panel-about{
-    display: flex;
+.area1, .area2,
+.area3, .area4,
+.area5, .area6 {
+	border: 10px solid #fffefdc0;
+	border-radius: 5px;
+	display:grid;
+	grid-gap: 5px;
+	grid-template-rows: 140px 140px;
+    /* grid-area: area1;
+    background-image: url("../img/Cancun_1920.jpeg"); */
+    background-size: cover;
+	overflow: hidden;
+	justify-items: center;
     align-items: center;
-    background-image: url(../img/back.jpeg);
-    height: 400px;
-    width: 1150px;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    margin: 0 auto;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    transition: .3s ease-in-out;
-}
-.btn-about{
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-    bottom: 200px;
-	} 
-	
-.panel-about:hover .btn {
-    -webkit-transition: .6s ease-in-out;
-    transition: .6s ease-in-out;
-    bottom: 0px;
-    opacity: 1;
-}
-.panel-about:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-}
-.div-quienSomos{
-    background-color: aliceblue;
-    transition: .6s ease-in-out;
-    opacity: 0.3;
-    padding: 3rem;
-}
-.panel-about:hover .div-quienSomos{
-    opacity: 1;
-}
-.div-quienSomos p{
-    text-align: justify;
-}
-.linea-quienSomos{
-    background-color: rgb(95, 118, 218);
-    height: 0.5rem;
-    margin-bottom: 1rem;
-}
-.div-opinion{
-    display: none;
-}
-.opinion{
-    height: 6rem;
-    margin-top: 3rem;
-}
-.perfil-opinion{
-    height: 100%;
-    padding: 0;
-    background:rgba(211, 199, 199, 0.5);
-    border: 1px solid rgb(95, 118, 218);
-    border-radius: 30px;
-}
-.nombre-opinion{
-    text-align: center;
-    padding: 0;
-}
-.img-opinion{
-    height: 70%;
-}
-.img-opinion img{
-    width: 100%;
-    height: 100%;
-}
-.letras-opinion{
-    background-color: aliceblue;
-    height:100%;
-    border: 1px solid rgb(95, 118, 218);
-    border-radius: 30px 20px 20px 0; 
-}
-.letras-opinion-derecho{
-    background-color: aliceblue;
-    height:100%;
-    border: 1px solid rgb(95, 118, 218);
-    border-radius: 20px 30px 0px 20px; 
-}
-.letras-opinion, .letras-opinion-derecho h5 {
-    text-align: center;
+	grid-template-areas:
+	"p"
+	"button"
 }
 
-footer {
-	background-color: #141939;
-	color: white;
+.area1, .area2,
+.area3, .area4,
+.area5, .area6 p {
+	font-size: 350%;
+	color: #ffbf47;
+	text-shadow: 2px 2px maroon;
+	grid-area: p;
+	text-align: center;
 }
 
-a {
-	color: white;
+.area1, .area2,
+.area3, .area4,
+.area5, .area6 button {
+	grid-area: button;
 }
 
-a:hover {
-	color: white;
+.area1 {
+	grid-area: area1;
+    background-image: url("../img/Cancun_1920.jpeg");
 }
 
-.btn {
-	background-color: yellow;
-	border-color: yellow;
+.area2 {
+	/* border: 10px solid #fffefdc0;*/
+    grid-area: area2; 
+	background-image: url("../img/ciudad_mexico.JPG");
+    /* background-size: cover;
+    overflow: hidden; */
+}
+.area3 {
+	/* border: 10px solid #fffefdc0; */
+    grid-area: area3;
+	background-image: url("../img/buenos_aires.JPG");
+    /* background-size: cover;
+    overflow: hidden; */
+}
+.area4 {
+	border: 10px solid #fffefdc0;
+    grid-area: area4;
+	background-image: url("../img/Rio_1920.jpeg");
+    /* background-size: cover;
+    overflow: hidden; */
+}
+.area5 {
+	border: 10px solid #fffefdc0;
+    grid-area: area5;
+	background-image: url("../img/barcelona_1920_2.jpg");
+    /* background-size: cover;
+    overflow: hidden; */
+}
+.area6 {
+	border: 10px solid #fffefdc0;
+    grid-area: area6;
+	background-image: url("../img/Bogota_1920.png");
+	background-size: cover;
+	/* background-repeat: no-repeat; */
+    overflow: hidden;
 }
 
-.map-block {
-	background-color: white;
-	height: 500px;
-}
-.formulario-block {
-	background-color: white;
-	height: 500px;
-}
+
+
+@media (max-width:700px){
+	.body{
+		background-color: #ffc60032;
+		background-image: none;
+	}
+    .wrapper {
+		grid-template-columns: minmax(285px,1fr);
+		
+        grid-template-areas:
+            "area1"
+            "area2"
+            "area3"
+            "area4"
+            "area5"
+            "area6"     
+        }
+	}
