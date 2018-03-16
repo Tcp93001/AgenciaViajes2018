@@ -1,9 +1,10 @@
 /*main css*/
 .fondos {
-	background-image: url("../img/travel_2.jpg");
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
+	background-image: url("../img/topography.svg"),
+	linear-gradient(110deg, #A8C1DE, #1067CE);
+  background-size: 340px, auto;
+  min-height: calc(100vh - 100px);
+  background-attachment: fixed;
 }
 
 .navbar-button {
@@ -11,7 +12,7 @@
 }
 
 .recargado {
-	background-color: #e7d3bbbf
+	background-color: hsla(33, 48%, 82%, 0.3);
 }
 
 
@@ -19,7 +20,36 @@
 	margin: 10px;
 	padding: 20px;
 	/* background: linear-gradient(#ecb1308e, #3f87a6); */
-	border-radius: 5px;
+	border-radius: 20px;
+	background-color: rgb(252, 188, 114, 0.6);
+	/* -webkit-transition: opacity 0.3s; */
+	opacity: 1;
+
+}
+
+.flotante {
+	/* margin: 10px;
+	padding: 20px; */
+	/* background: linear-gradient(#ecb1308e, #3f87a6); */
+	display: grid;
+	grid-column: 1 / -1;
+	grid-row: 1 / -1;
+	background-color: #fdbd7435;
+	grid-template-columns: 1;
+	grid-template-rows: 1;
+	/* height: 0%; */
+	/* width:100%; */
+	transition: 0.5s;
+	/* transform: translateY(100%); */
+	transition: height .5s, opacity 0.5s;
+	transition-timing-function: ease-in;
+	opacity: 0;
+	/* position: relative; */
+}
+
+div.area1:hover .flotante {
+	opacity: 1;
+	/* transform: translateY(0); */
 }
 
 .wrapper {
@@ -42,18 +72,18 @@
 .area5, .area6 {
 	border: 10px solid #fffefdc0;
 	border-radius: 5px;
-	display:grid;
-	grid-gap: 5px;
-	grid-template-rows: 140px 140px;
-    /* grid-area: area1;
+	/* display:grid;   QUITAMOS EL DISPLAY GRID PARA QUE SE PUEDA EXTENDER TODO EL div*/ 
+	/* grid-gap: 5px;
+	grid-template-rows: 140px 140px; */
+	/* grid-area: area1;
     background-image: url("../img/Cancun_1920.jpeg"); */
-    background-size: cover;
+	background-size: cover;
 	overflow: hidden;
 	justify-items: center;
-    align-items: center;
+	align-items: center;
 	grid-template-areas:
 	"p"
-	"button"
+	"button";
 }
 
 .area1, .area2,
@@ -74,7 +104,7 @@
 
 .area1 {
 	grid-area: area1;
-    background-image: url("../img/Cancun_1920.jpeg");
+	background-image: url("../img/Cancun_1920.jpeg");
 }
 
 .area2 {
