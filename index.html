@@ -37,8 +37,10 @@
 					<li>
 						<a href="#myFooter">Nuestros datos</a>
 					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a data-toggle="modal" data-target="#Formulario">Necesitas más información?</a>
+						<a data-toggle="modal" data-target="#Formulario">¿Necesitas más información?</a>
 					</li>
 				</ul>
 
@@ -55,7 +57,14 @@
 			Indicators
 			<ol class="carousel-indicators">
 				<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel-1" data-slide-to="1"></li>
+				<meta charset="UTF-8">
+				<title>Document</title>
+				<link rel="stylesheet" href="css/bootstrap.css">
+				<link rel="stylesheet" href="css/style.css">
+				<link rel="stylesheet" href="css/Footer-with-map.css">
+				<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+				<meta name="description" content="Agencia de viajes Geekshubs">
+			</head>	<li data-target="#carousel-1" data-slide-to="1"></li>
 				<li data-target="#carousel-1" data-slide-to="2"></li>
 				<li data-target="#carousel-1" data-slide-to="3"></li>
 			</ol>
@@ -169,14 +178,46 @@
 			<!-- Sección de modal para la parte de ofertas -->
 
 			<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
-						<div class="modal-header">
+						<div class="modal-header recargado">
 							<h4 class="modal-title" id="myModalLabel">Ofertas Geeks Hubs Travel</h4>
 						</div>
 						
-						<div class="modal-body recargado" id="ofertasViajes">								
-
+						<div class="modal-body recargado"id="ofertasViajes">
+							
+								<div class="container-fluid" id="mainOfertas">
+										<!-- aqui escribir lo que necesita tener el modal de una ppagina
+									   
+										<div class="row">
+										   <div class="col-xs-10 col-xs-offset-1">
+										   
+												<p class="lead text-center"><strong>Cancun</strong></p>
+												
+												<dl class="dl-horizontal lead">
+													<dt>Costo:</dt>
+													<dd> Tantos en seís meses sin intereses</dd>
+													<dt>Duración: </dt>
+													<dd>Muchos muchos meses</dd>
+													<dt>Oferta Especial:</dt>
+													<dd>Ofertones ńicos</dd>
+												</dl>
+											
+										   </div>
+									
+									
+										</div>
+									
+										<div class="row">
+											<div id="flexycontenedor">
+												<div class="itemflex item-1"><img src="img/beijing.JPG" alt="Cancun"></div>
+												<div class="itemflex item-2"><img src="img/new_york.JPG" alt="CDMX"></div>
+												<div class="itemflex item-3"><img src="img/Valencia_1920.jpeg" alt="Valencia"></div>
+											</div>
+											 
+										</div>
+									 -->
+								</div>
 						</div>
 
 						<!-- <div class="col-xs-12">
@@ -274,8 +315,8 @@
 		<footer id="myFooter">
 			<div class="container">
 
-				<div class="col-sm-3 col-sm-offset-2 hidden-xs">
-					<h5>Sobre nosotros</h5>
+				<div class="col-sm-3 col-sm-offset-2 hidden-xs text-center">
+					<h4>Sobre nosotros</h4>
 					<ul>
 						<li>
 							<a data-toggle="modal" data-target="#modalDatos" onclick="contenidoDatos(6)">Preguntas frecuentes</a>
@@ -294,10 +335,8 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-sm-5 col-sm-offset-1">
-					<p class="lead">
-						<strong>¿Necesitas Ayuda?</strong>
-					</p>
+				<div class="col-sm-3 col-sm-offset-3 text-center">
+					<h4>¿Necesitas Ayuda?</h4>
 					<p>Llámanos: 026 4123 4567</p>
 					<p>Si lo prefieres, envíanos un correo a:</p>
 
@@ -374,7 +413,7 @@
 				</div>
 			  </div>
 			</div>
-		  </div>
+		</div>
 
 
 

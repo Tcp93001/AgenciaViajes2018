@@ -3,63 +3,81 @@
         "nombre":"Cancún",
         "costo":"700 USD",
         "duracion":"15 días",
-        "oferta":"30% de descuento hasta el 26 de marzo de 2018"
+        "oferta":"30% de descuento hasta el 26 de marzo de 2018",
+        "imagen1":"../img/Cancun1.jpeg",
+        "imagen2":"../img/Cancun2.jpeg",
+        "imagen3":"../img/Cancun3.jpeg"
     },
     "2":{
         "imagen":"../img/ciudad_mexico.JPG",
         "nombre":"Ciudad de México",
         "costo":"500 USD",
         "duracion":"7 días",
-        "oferta":"30% de descuento hasta el 26 de marzo de 2018"
+        "oferta":"30% de descuento hasta el 26 de marzo de 2018",
+        "imagen1":"../img/mexico1.jpeg",
+        "imagen2":"../img/mexico2.jpeg",
+        "imagen3":"../img/mexico3.jpeg"
     },
     "3":{
         "imagen":"../img/buenos_aires.JPG",
-        "nombre":"Buenos Aires:",
+        "nombre":"Buenos Aires",
         "costo":"500 USD",
         "duracion":"7 días",
-        "oferta":"2x1 vigente hasta el 25 de marzo de 2018"
+        "oferta":"2x1 vigente hasta el 25 de marzo de 2018",
+        "imagen1":"../img/buenos1.jpeg",
+        "imagen2":"../img/buenos2.jpeg",
+        "imagen3":"../img/buenos3.jpeg"
     },
     "4":{
         "imagen":"../img/Rio_1920.jpeg",
         "nombre":"Rio de Janeiro",
         "costo":"800 USD",
         "duracion":"7 días",
-        "oferta":"2x1 vigente hasta el 25 de marzo de 2018"
+        "oferta":"2x1 vigente hasta el 25 de marzo de 2018",
+        "imagen1":"../img/rio1.jpeg",
+        "imagen2":"../img/rio2.jpeg",
+        "imagen3":"../img/rio3.jpeg"
     },
     "5":{
         "imagen":"../img/barcelona_1920_2.jpg",
         "nombre":"Barcelona",
         "costo":"900 USD",
         "duracion":"15 días",
-        "oferta":"30% de descuento hasta el 26 de marzo de 2018"
+        "oferta":"30% de descuento hasta el 26 de marzo de 2018",
+        "imagen1":"../img/barcelona1.jpeg",
+        "imagen2":"../img/barcelona2.jpeg",
+        "imagen3":"../img/barcelona3.jpeg"
     },
     "6":{
         "imagen":"../img/Bogota_1920.png",
         "nombre":"Bogotá",
         "costo":"300 USD",
         "duracion":"7 días",
-        "oferta":"2x1 vigente hasta el 25 de marzo de 2018"
+        "oferta":"2x1 vigente hasta el 25 de marzo de 2018",
+        "imagen1":"../img/bogota1.jpeg",
+        "imagen2":"../img/bogota2.jpeg",
+        "imagen3":"../img/bogota3.jpeg"
     },    
 
     "7":{
         "titulo":"Preguntas Frecuentes", 
-        "datos": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptate. Nulla autem, quod at consectetur laboriosam eos quaerat et molestiae, sunt ad ipsam incidunt enim odit beatae, consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapiente numquam! Incidunt rerum, blanditiis nisi ad nesciunt vel omnis? Iusto tenetur voluptatum ab nulla? Illum.Tristique suscipit donec hendrerit at dui inceptos penatibus gravida, sollicitudin libero vehicula justo lobortis commodo malesuada vulputate rhoncus, morbi montes ultricies etiam vitae hac mollis."
+        "datos": "PREGUNTAS FRECUENTES:........................          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptate. Nulla autem, quod at consectetur laboriosam eos quaerat et molestiae, sunt ad ipsam incidunt enim odit beatae, consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapiente numquam! Incidunt rerum, blanditiis nisi ad nesciunt vel omnis? Iusto tenetur voluptatum ab nulla? Illum.Tristique suscipit donec hendrerit at dui inceptos penatibus gravida, sollicitudin libero vehicula justo lobortis commodo malesuada vulputate rhoncus, morbi montes ultricies etiam vitae hac mollis."
     },
 
     "8":{
         "título": "Quiénes somos",
-        "datos":"Quienes somos nosotros consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapient"
+        "datos":"Quienes somos nosotros......... ...............              consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapient"
     },
     "9":{
         "título": "Programa de Puntos",
-        "datos":"Programa de puntos.... consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapient"
+        "datos":"Programa de puntos.................................. consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapient"
     },
     "10":{
         "título": "Contacto",
-        "datos":"Contacto a otras empresas del grupo consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapient"
+        "datos":"Contacto a otras empresas................................. del grupo consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapient"
     },
-    "10":{
+    "11":{
         "título": "Aviso Legal",
-        "datos":"AVISO LEGAL   empresas consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapient"
+        "datos":"AVISO LEGAL  De acuerdo con el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico ponemos a su disposición los siguientes datos:(Nombre de la empresa) está domiciliada en la calle (dirección fiscal de la empresa), con CIF (número correspondiente). Inscrita en el Registro Mercantil de (ciudad en la que se encuentre dicho registro), Vol. (número correspondiente), Folio (número correspondiente), Hoja (número correspondiente), Inscripción (número correspondiente). En la web (página web de la empresa) hay una serie de contenidos de carácter informativo sobre (contenido de la web o explicación de su actividad). Su principal objetivo es facilitar a los clientes y al público en general, la información relativa a la empresa, a los productos y servicios que se ofrecen (esto se puede modificar según la actividad a la que se dedique la empresa)."
     }
    }
