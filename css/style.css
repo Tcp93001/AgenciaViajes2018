@@ -2,8 +2,7 @@
 	/* aplica solo para el body. Fija la imagen en fondo */
 
 .fondos {
-	/* background-image: url("../img/topography.svg"), */
-	/* linear-gradient(110deg, rgb(245, 232, 220), rgb(200, 219, 241)); */
+
 	background-size: 340px, auto;
 	background-color: rgba(241, 239, 239, 0.555); 
 	min-height: calc(100vh - 100px);
