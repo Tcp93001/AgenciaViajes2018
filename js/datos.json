@@ -1,0 +1,65 @@
+   { "1":{
+        "imagen":"../img/Cancun_1920.jpeg",
+        "nombre":"Cancún",
+        "costo":"700 USD",
+        "duracion":"15 días",
+        "oferta":"30% de descuento hasta el 26 de marzo de 2018"
+    },
+    "2":{
+        "imagen":"../img/ciudad_mexico.JPG",
+        "nombre":"Ciudad de México",
+        "costo":"500 USD",
+        "duracion":"7 días",
+        "oferta":"30% de descuento hasta el 26 de marzo de 2018"
+    },
+    "3":{
+        "imagen":"../img/buenos_aires.JPG",
+        "nombre":"Buenos Aires:",
+        "costo":"500 USD",
+        "duracion":"7 días",
+        "oferta":"2x1 vigente hasta el 25 de marzo de 2018"
+    },
+    "4":{
+        "imagen":"../img/Rio_1920.jpeg",
+        "nombre":"Rio de Janeiro",
+        "costo":"800 USD",
+        "duracion":"7 días",
+        "oferta":"2x1 vigente hasta el 25 de marzo de 2018"
+    },
+    "5":{
+        "imagen":"../img/barcelona_1920_2.jpg",
+        "nombre":"Barcelona",
+        "costo":"900 USD",
+        "duracion":"15 días",
+        "oferta":"30% de descuento hasta el 26 de marzo de 2018"
+    },
+    "6":{
+        "imagen":"../img/Bogota_1920.png",
+        "nombre":"Bogotá",
+        "costo":"300 USD",
+        "duracion":"7 días",
+        "oferta":"2x1 vigente hasta el 25 de marzo de 2018"
+    },    
+
+    "7":{
+        "titulo":"Preguntas Frecuentes", 
+        "datos": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptate. Nulla autem, quod at consectetur laboriosam eos quaerat et molestiae, sunt ad ipsam incidunt enim odit beatae, consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapiente numquam! Incidunt rerum, blanditiis nisi ad nesciunt vel omnis? Iusto tenetur voluptatum ab nulla? Illum.Tristique suscipit donec hendrerit at dui inceptos penatibus gravida, sollicitudin libero vehicula justo lobortis commodo malesuada vulputate rhoncus, morbi montes ultricies etiam vitae hac mollis."
+    },
+
+    "8":{
+        "título": "Quiénes somos",
+        "datos":"Quienes somos nosotros consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapient"
+    },
+    "9":{
+        "título": "Programa de Puntos",
+        "datos":"Programa de puntos.... consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapient"
+    },
+    "10":{
+        "título": "Contacto",
+        "datos":"Contacto a otras empresas del grupo consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapient"
+    },
+    "10":{
+        "título": "Aviso Legal",
+        "datos":"AVISO LEGAL   empresas consequatur omnis quibusdam. Officia quos laudantium ea esse possimus dolorum asperiores porro atque? Corrupti, nam impedit dolor veniam dolorum nesciunt quaerat, eligendi similique repudiandae esse enim. Accusantium, quisquam. Cum vitae veritatis illo eligendi! Architecto exercitationem mollitia voluptatibus repellendus nesciunt. Dolore itaque quod deserunt neque labore eos consectetur sapient"
+    }
+   }

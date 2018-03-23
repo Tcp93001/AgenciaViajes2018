@@ -37,7 +37,9 @@
 					<li>
 						<a href="#myFooter">Nuestros datos</a>
 					</li>
-
+					<li>
+						<a data-toggle="modal" data-target="#Formulario">Necesitas más información?</a>
+					</li>
 				</ul>
 
 
@@ -46,7 +48,7 @@
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
-	<!-- carrousel actualizado -->
+	<!-- carrousel  -->
 
 	<div class="container">
 		<div id="carousel-1" class="carousel slide" data-ride="carousel">
@@ -62,7 +64,7 @@
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
 					<img src="img/Madrid_1920.jpeg" alt="Madrid">
-					<div class="carousel-caption pregunta">
+					<div class="carousel-caption captionCarousel">
 						<h1>Destinos Internacionales</h1>
 						<h2>Madrid,Valencia, Barcelona</h2>
 						<h3>
@@ -72,7 +74,7 @@
 				</div>
 				<div class="item">
 					<img src="img/Guadalajara.png" alt="DF">
-					<div class="carousel-caption pregunta">
+					<div class="carousel-caption captionCarousel">
 						<h1><strong>México</strong></h1>
 						<h2>Guadalajara, Monterrey y Tlaxcala</h2>
 						<h3>
@@ -82,7 +84,7 @@
 				</div>
 				<div class="item">
 					<img src="img/miami_1920.jpg" alt="Miami">
-					<div class="carousel-caption pregunta">
+					<div class="carousel-caption captionCarousel">
 						<h1>Estados Unidos</h1>
 						<h2>Miami</h2>
 						<h3>
@@ -96,7 +98,7 @@
 
 				<div class="item">
 					<img src="img/buenos_aires.JPG" alt="Buenos aires">
-					<div class="carousel-caption pregunta">
+					<div class="carousel-caption captionCarousel">
 						<h1>Nuevos paquetes!</h1>
 						<h2>Latinoamérica</h2>
 						<h3>
@@ -124,42 +126,42 @@
 		<!-- <div class="container"> -->
 
 
-		<div class="container">
+		<div class="container" id="myGrid">
 			<div class="wrapper">
-				<div class="area1" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3">
-						<p class="letrero">Cancún</p>						
+				<div class="area1" id="area1" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3" onclick="crearOfertas(0)">
+						<p>Cancún</p>						
 					<div class="flotante">
-						<p>Promoción</p>
+						<p>Ofertas</p>
 					</div>
 				</div>
-				<div class="area2" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3">
-						<p class="letrero">Ciudad de México</p>						
+				<div class="area2" id="area2" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3" onclick="crearOfertas(1)">
+						<p>Ciudad de México</p>						
 					<div class="flotante">
-						<p>Promoción</p>
+						<p>Ofertas</p>
 					</div>
 				</div>
-				<div class="area3" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3">
-						<p class="letrero">Buenos Aires</p>						
+				<div class="area3" id="area3" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3" onclick="crearOfertas(2)">
+						<p>Buenos Aires</p>						
 					<div class="flotante">
-						<p>Promoción</p>
+						<p>Ofertas</p>
 					</div>
 				</div>
-				<div class="area4" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3">
-						<p class="letrero">Rio de Janeiro</p>						
+				<div class="area4" id="area4" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3" onclick="crearOfertas(3)">
+						<p>Rio de Janeiro</p>						
 					<div class="flotante">
-						<p>Promoción</p>
+						<p>Ofertas</p>
 					</div>
 				</div>
-				<div class="area5" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3">
-						<p class="letrero">Barcelona</p>						
+				<div class="area5" id="area5" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3" onclick="crearOfertas(4)">
+						<p>Barcelona</p>						
 					<div class="flotante">
-						<p>Promoción</p>
+						<p>Ofertas</p>
 					</div>
 				</div>
-				<div class="area6" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3">
-						<p class="letrero">Bogotá</p>						
+				<div class="area6" id="area6" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3" onclick="crearOfertas(5)">
+						<p>Bogotá</p>						
 					<div class="flotante">
-						<p>Promoción</p>
+						<p>Ofertas</p>
 					</div>
 				</div>
 			</div>
@@ -170,21 +172,14 @@
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true"></span>
-							</button>
 							<h4 class="modal-title" id="myModalLabel">Ofertas Geeks Hubs Travel</h4>
 						</div>
-						<div class="modal-body recargado">								
-							<dl class="dl-horizontal lead">
-								<dt>Costo:</dt>
-								<dd>700 dólares en seís meses sin intereses</dd>
-								<dt>Duración: </dt>
-								<dd>1 semana en hoteles de cinco estrellas</dd>
-								<dt>Oferta Especial:</dt>
-								<dd>2x1 vigente hasta el 15 de marzo de 2018</dd>
-							</dl>
+						
+						<div class="modal-body recargado" id="ofertasViajes">								
 
+						</div>
+
+						<!-- <div class="col-xs-12">
 							<form>
 								<h3 class="text-center">¿Te enviamos esta información?</h3>
 								<div class="form-group">
@@ -205,8 +200,8 @@
 								</div>
 								<br>
 							</form>
-						</div>
-						<div class="modal-footer recargado">
+						</div> -->
+						<div class="modal-footer">
 							<button type="button" class="btn btn-lg btn-warning" data-dismiss="modal">Cancelar</button>
 						</div>
 					</div>
@@ -216,7 +211,12 @@
 		<!-- Concluye la parte de ofertas -->
 
 		<br>
-		<div class="container">
+		
+		
+		<!-- Este es un boton para hacer preguntas mediante un formulario -->
+
+
+		<!-- <div class="container">
 			<div class="row">
 				<div class="pregunta">
 					<p class="text-center">
@@ -227,7 +227,7 @@
 				</div>
 			</div>
 			<!-- Modal -->
-			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<!-- <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
@@ -264,40 +264,37 @@
 				</div>
 			</div>
 
-		</div>
+		</div> -->
 
 
 		<!-- Concluye la parte de formulario
 				Inicia la parte de Footer      -->
 
-		<!-- ultimo div de container??? -->
-
-	<!-- </div> -->
-
-
-	<!-- aqui va la propuesta del nuevo footer -->
 
 		<footer id="myFooter">
 			<div class="container">
 
-				<div class="col-sm-3 col-sm-offset-1 hidden-xs">
+				<div class="col-sm-3 col-sm-offset-2 hidden-xs">
 					<h5>Sobre nosotros</h5>
 					<ul>
 						<li>
-							<a href="#">Preguntas frecuentes</a>
+							<a data-toggle="modal" data-target="#modalDatos" onclick="contenidoDatos(6)">Preguntas frecuentes</a>
 						</li>
 						<li>
-							<a href="#">Quiénes somos</a>
+							<a data-toggle="modal" data-target="#modalDatos" onclick="contenidoDatos(7)">Quiénes somos</a>
 						</li>
 						<li>
-							<a href="#">Programa de puntos</a>
+							<a data-toggle="modal" data-target="#modalDatos" onclick="contenidoDatos(8)">Programa de puntos</a>
 						</li>
 						<li>
-							<a href="#">Contacto</a>
+							<a data-toggle="modal" data-target="#modalDatos" onclick="contenidoDatos(9)">Contacto</a>
+						</li>
+						<li>
+							<a data-toggle="modal" data-target="#modalDatos" onclick="contenidoDatos(10)">Aviso Legal</a>
 						</li>
 					</ul>
 				</div>
-				<div class="col-sm-3 col-sm-offset-1">
+				<div class="col-sm-5 col-sm-offset-1">
 					<p class="lead">
 						<strong>¿Necesitas Ayuda?</strong>
 					</p>
@@ -309,7 +306,7 @@
 					</p>
 
 				</div>
-				<div class="col-sm-3 col-sm-offset-1 hidden-xs">
+				<!-- <div class="col-sm-3 col-sm-offset-1 hidden-xs">
 					<h5>Legal</h5>
 					<ul>
 						<li>
@@ -322,7 +319,7 @@
 							<a href="#">Condiciones generales</a>
 						</li>
 					</ul>
-				</div>
+				</div> -->
 			</div>
 			<div class="container section-3">
 				<iframe id="map-container" class="col-sm-6 col-sm-offset-3" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12317.800936526715!2d-0.35594!3d39.481747!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5aae0e0b7fa0358a!2sGeeksHubs+Space+Valencia!5e0!3m2!1ses-419!2smx!4v1520890788704"></iframe>
@@ -330,13 +327,13 @@
 
 			<!-- </div> -->
 			<div class="social-networks">
-				<a href="https://twitter.com/geekshubs?lang=es" class="twitter">
+				<a href="https://twitter.com/geekshubs?lang=es" target="_blank" class="twitter">
 					<i class="fab fa-twitter-square fa-2x"></i>
 				</a>
-				<a href="https://www.facebook.com/geekshubs/" class="facebook">
+				<a href="https://www.facebook.com/geekshubs/" target="_blank" class="facebook">
 					<i class="fab fa-facebook-square fa-2x"></i>
 				</a>
-				<a href="https://plus.google.com/u/0/+Geekshubs" class="google">
+				<a href="https://plus.google.com/u/0/+Geekshubs" target="_blank" class="google">
 					<i class="fab fa-google-plus-square fa-2x"></i>
 				</a>
 			</div>
@@ -357,6 +354,65 @@
 		</footer>
 	</div>
 
+	<!-- Sección de modales -->
+
+		<div class="modal fade" id="modalDatos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+			  <div class="modal-content">
+
+				<div class="modal-header">
+				  <h4 class="modal-title" id="myModalLabel">Sobre nosotros</h4>
+				</div>
+
+				<div class="modal-body">
+					<div id="writeDatos"></div>
+
+				</div>
+
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+
+
+		  <div class="modal fade" id="Formulario" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header recargado">
+						<h4 class="modal-title lead" id="myModalLabel">¡Compartenos tus datos!</h4>
+					</div>
+					<div class="col-xs-12">
+						<form>
+							<div class="form-group">
+								<label for="exampleInputNombre">Nombre</label>
+								<input type="nombre" class="form-control" id="inputNombre" placeholder="Nombre">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Correo</label>
+								<input type="email" class="form-control" id="inputEmail1" placeholder="Correo">
+							</div>
+							<div>
+								<p>
+									<strong>Déjanos tu comentarios o dudas</strong>
+								</p>
+								<textarea class="form-control" rows="3" placeholder="En qué más te podemos ayudar..."></textarea>
+								<br>
+								<button type="submit" id="enviarDatosContacto" class="btn btn-lg btn-primary">Enviar datos</button>
+							</div>
+							<br>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<div>
+							<button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Cancelar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 	<script src="js/jquery-3.3.1.min.js"></script>
@@ -366,3 +422,4 @@
 </body>
 
 </html>
+
