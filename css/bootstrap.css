@@ -4495,6 +4495,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #f88451;
   border-color: #f88351af;
   font-size: 120%;
+  box-shadow: 0 4px 6px hsla(0,0%, 0%, 0.3);
 }
 .navbar-default .navbar-brand {
   color: whitesmoke;
@@ -6236,7 +6237,8 @@ button.close {
 }
 .carousel {
   position: relative;
-  box-shadow: 0 4px 6px hsla(0,0%, 0%, 0.3)
+  box-shadow: 0 4px 6px hsla(0,0%, 0%, 0.3);
+  /* margin-top: 15px; */
 }
 .carousel-inner {
   position: relative;
